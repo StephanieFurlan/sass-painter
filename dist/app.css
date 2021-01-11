@@ -15,9 +15,11 @@ header .header-top {
   width: 70%;
   margin: 0 auto;
   text-align: right;
+  height: 45px;
 }
 header .header-top ul {
   list-style-type: none;
+  line-height: 45px;
 }
 header .header-top ul li {
   display: inline-block;
@@ -26,12 +28,17 @@ header .header-top ul li {
 header .header-top ul li a {
   text-decoration: none;
   color: white;
+  font-size: 12px;
+  color: #666666;
 }
 header .header-top ul li a:hover {
-  color: red;
+  color: white;
   text-decoration: underline;
 }
 header .header-top ul li a i {
   color: #029CFF;
   margin-right: 5px;
+  font-size: 14px;
+  line-height: 45px;
+  vertical-align: middle;
 }

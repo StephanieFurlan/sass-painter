@@ -5,24 +5,30 @@ header {
       width: 70%;
       margin: 0 auto;
       text-align: right;
+      height: $headerTopHeight;
       ul {
          list-style-type: none;
-
+         line-height: $headerTopHeight;
          li {
             display: inline-block;
             margin: 0 10px;
-
             a {
                text-decoration: none;
                color: white;
+               font-size: 12px;
+               color: #666666;
+
                &:hover {
-                  color: red;
+                  color: white;
                   text-decoration: underline;
                }
 
                i {
                   color: $iconColor;
                   margin-right: 5px;
+                  font-size: 14px;
+                  line-height: $headerTopHeight;
+                  vertical-align: middle;
                }
             }
          }

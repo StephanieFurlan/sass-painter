@@ -42,3 +42,39 @@ header .header-top ul li a i {
   line-height: 45px;
   vertical-align: middle;
 }
+header .header-bottom {
+  width: 70%;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+header .header-bottom img {
+  display: inline-block;
+  line-height: 50px;
+  height: 50%;
+  vertical-align: sub;
+}
+header .header-bottom ul {
+  display: inline-block;
+  list-style-type: none;
+}
+header .header-bottom ul li {
+  display: inline-block;
+  padding: 0 25px;
+}
+header .header-bottom ul li:hover {
+  cursor: pointer;
+  background-color: #E6E6E6;
+}
+header .header-bottom ul li:hover a, header .header-bottom ul li:hover i {
+  color: black;
+}
+header .header-bottom ul li a {
+  color: white;
+  text-decoration: none;
+}
+header .header-bottom ul li i {
+  color: white;
+  font-size: 10px;
+}

@@ -1,0 +1,35 @@
+header {
+   background-color: #101010;
+
+   .header-top {
+      width: 70%;
+      margin: 0 auto;
+      text-align: right;
+      ul {
+         list-style-type: none;
+
+         li {
+            display: inline-block;
+            margin: 0 10px;
+
+            a {
+               text-decoration: none;
+               color: white;
+               &:hover {
+                  color: red;
+                  text-decoration: underline;
+               }
+
+               i {
+                  color: $iconColor;
+                  margin-right: 5px;
+               }
+            }
+         }
+      }
+   }
+
+   .header-bottom {
+
+   }
+}

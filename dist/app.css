@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #101010;
+}
+header .header-top {
+  width: 70%;
+  margin: 0 auto;
+  text-align: right;
+}
+header .header-top ul {
+  list-style-type: none;
+}
+header .header-top ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header .header-top ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .header-top ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+header .header-top ul li a i {
+  color: #029CFF;
+  margin-right: 5px;
+}

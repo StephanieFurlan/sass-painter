@@ -30,6 +30,7 @@ header {
                   font-size: 14px;
                   line-height: $headerTopHeight;
                   vertical-align: middle;
+                  color: $iconColor;
                }
             }
          }
@@ -67,7 +68,7 @@ header {
                text-decoration: none;
             }
             i {
-               color: white;
+               color: $fontGray;
                font-size: 10px;
             }
          }

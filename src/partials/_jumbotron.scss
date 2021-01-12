@@ -1,0 +1,80 @@
+#jumbotron {
+   height: 460px;
+   background-image: url("../dist/images/hero-painteressentials-7.jpg");
+   background-repeat: no-repeat;
+   background-position: top center;
+
+   .jumbotron-container {
+      position: relative;
+      width: 70%;
+      margin: 0 auto;
+      height: 100%;
+      #mini-name {
+         position: absolute;
+         left: 80px;
+         bottom: 20px;
+         color: white;
+         font-size: 11px;
+      }
+      .jumbotron-center,
+      .jumbotron-right {
+         float: left;
+      }
+      .jumbotron-center {
+
+         margin-left: calc(55% - 100% / 3);
+         height: 100%;
+         width: 45%;
+         color: white;
+         padding: 40px 0 0 10px;
+         h1, h2 {
+            font-weight: 400;
+            margin-bottom: 20px;
+         }
+
+         ul {
+
+            list-style-type: none;
+            li {
+               margin-bottom: 20px;
+               font-weight: 400;
+               &:before {
+                  display: inline-block;
+                  font-style: normal;
+                  font-variant: normal;
+                  text-rendering: auto;
+                  -webkit-font-smoothing: antialiased;
+                  font-family: "Font Awesome 5 Free";
+                  font-weight: 900;
+                  content: "\f054";
+                  color: $fontGray;
+                  font-size: 12px;
+                  padding-right: 10px;
+               }
+            }
+         }
+         .download {
+            background-color: #5C5D5B;
+            display: inline-flex;
+            padding: 10px 20px;
+            align-items: center;
+            .left {
+               padding-right: 10px;
+               border-right: 1px solid white;
+            }
+
+            i {
+               font-size: 20px;
+               padding-left: 10px;
+            }
+         }
+
+      }
+      .jumbotron-right {
+         width: calc(100% / 3);
+         height: 100%;
+         background-color: yellow;
+      }
+   }
+
+}

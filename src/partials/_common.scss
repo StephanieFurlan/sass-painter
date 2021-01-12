@@ -6,8 +6,21 @@
 
 body {
    font-family: 'Roboto', sans-serif;
+   font-size: 14px;
 }
 
 @mixin my-display-flex {
    display: flex;
+}
+
+button:focus,
+select:focus,
+input:focus {
+  outline: 0;
+}
+
+@mixin btn {
+   color: white;
+   background-color: #029CFF;
+   border: none;
 }

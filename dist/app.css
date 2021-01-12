@@ -7,6 +7,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+button:focus,
+select:focus,
+input:focus {
+  outline: 0;
 }
 
 header {
@@ -149,8 +156,54 @@ header .header-bottom ul li i {
   font-size: 20px;
   padding-left: 10px;
 }
+#jumbotron .jumbotron-container .jumbotron-center .download:hover {
+  background-color: #4f504e;
+  cursor: pointer;
+}
 #jumbotron .jumbotron-container .jumbotron-right {
   width: calc(100% / 3);
-  height: 100%;
-  background-color: yellow;
+  height: calc(100% - 20px);
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  padding: 40px 20px;
+  position: relative;
+}
+#jumbotron .jumbotron-container .jumbotron-right #price {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+#jumbotron .jumbotron-container .jumbotron-right #download {
+  color: #666666;
+  margin-bottom: 20px;
+}
+#jumbotron .jumbotron-container .jumbotron-right .btn-blue {
+  padding: 10px 40px;
+  margin-bottom: 40px;
+  color: white;
+  background-color: #029CFF;
+  border: none;
+}
+#jumbotron .jumbotron-container .jumbotron-right img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+#jumbotron .jumbotron-container .jumbotron-right .box {
+  background-color: #F6F6F6;
+  padding: 10px 20px;
+  color: black;
+}
+#jumbotron .jumbotron-container .jumbotron-right .box .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#jumbotron .jumbotron-container .jumbotron-right .box a {
+  text-decoration: none;
+  color: #029CFF;
+  margin-top: 5px;
+}
+#jumbotron .jumbotron-container .jumbotron-right .box a:hover {
+  text-decoration: underline;
 }

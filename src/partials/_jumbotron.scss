@@ -67,13 +67,58 @@
                font-size: 20px;
                padding-left: 10px;
             }
+            &:hover {
+               background-color: darken(#5C5D5B, 5%);
+               cursor: pointer;
+            }
          }
 
       }
       .jumbotron-right {
          width: calc(100% / 3);
-         height: 100%;
-         background-color: yellow;
+         height: calc(100% - 20px);
+         background-color: black;
+         margin-top: 20px;
+         color: white;
+         padding: 40px 20px;
+         position: relative;
+         #price {
+            font-size: 26px;
+            margin-bottom: 10px;
+         }
+         #download {
+            color: $fontGray;
+            margin-bottom: 20px;
+         }
+         .btn-blue {
+            padding: 10px 40px;
+            margin-bottom: 40px;
+            @include btn;
+         }
+
+         img {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+         }
+         .box {
+            background-color: #F6F6F6;
+            padding: 10px 20px;
+            color: black;
+            .title {
+               font-size: 18px;
+               font-weight: 600;
+               margin-bottom: 10px;
+            }
+            a {
+               text-decoration: none;
+               color: $iconColor;
+               margin-top: 5px;
+               &:hover {
+                  text-decoration: underline;
+               }
+            }
+         }
       }
    }
 
